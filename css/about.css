@@ -1,0 +1,129 @@
+.about{
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.about__line{
+    width: 1136px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #003964;
+
+}
+
+.about__line_left{
+    width: 532.98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__line_left-text{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "Open Sans";
+}
+
+.about__line_left-text:first-child{
+    color: #C0D8FB;
+    border-bottom: 2px solid #C0D8FB;
+}
+
+.about__line-text{
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Open Sans";
+}
+
+.about__rows{
+    width: 1136px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about__rows_info{
+    display: flex;
+    flex-direction: column;
+    width: 189px;
+    margin-right: 94px;
+}
+
+.about__rows_info-name{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans";
+    line-height: 1.4;
+}
+
+.about__rows_info-link{
+    line-height: 1.2;
+    color: rgba(255,255,255,0.8);
+    font-size: 12px;
+    font-family: "Open Sans";
+    margin-bottom: 10px;
+    width:fit-content;
+}
+
+.about__rows_info-link:hover{
+    border-bottom:1px solid rgba(255,255,255,0.8);
+}
+
+@media(max-width:1166px){ 
+    .about__line{
+        width:92%;
+        height: 38px;
+    }
+    
+    .about__line_left{
+        width: 532.98px;
+    }
+    
+    .about__rows{
+        width: 92%;
+    }
+}
+
+@media (max-width:720px){
+    .about__rows{
+        flex-direction: column;
+    }
+
+    .about__line_left-text{
+        overflow: hidden;
+    }
+}
+
+@media(max-width:480px){
+    .about__rows_info-link{
+        display: none;
+    }
+
+    .about__rows_info-name{
+        margin-right: auto;
+
+    }
+    /* .about__rows_info::after{
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 12px;
+    height: 12px;
+    content: "";
+    display: block;
+    position: relative;
+    right: auto;
+    top: 0;
+    width: 12px;
+    height: 12px;} */
+}

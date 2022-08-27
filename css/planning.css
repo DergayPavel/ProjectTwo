@@ -1,0 +1,158 @@
+.planning{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.planning__name{
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-bottom: 32px;
+
+
+}
+
+.planning__info{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.planning__info_block{
+    width: 360px;
+    height:390px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.block-img{
+    width: 360px;
+    height: 203px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; ;
+}
+
+.block-name{
+    width: 328px;
+    padding: 16px 16px 16px 16px;
+    font-family: "Open Sans";
+    line-height: 2rem;
+    font-weight: 600;
+    color: #000;
+    font-size: 1.5rem;
+
+}
+
+.block-text{
+    width: 328px;
+    padding: 0px 16px 16px 16px;
+    font-size: 1rem;
+    color: inherit;
+    font-family: "Open Sans";
+}
+
+.block-btn{
+    width: 52.28px;
+    color: #6244bb;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 12px 40px 12px 40px;
+    border:2px solid #6244bb ;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+.block-btn:hover{
+    color:#412d7b;;
+    border:2px solid #412d7b;;
+}
+
+@media(max-width:1180px){    
+    .planning__info{
+        width: 100%;
+        height:auto;
+    }
+    
+    .planning__info_block{
+        width: 31%;
+        height: auto;
+    }
+    
+    .block-img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .block-name{
+        width: 90%;
+        height: max-content;
+        padding-right: 0;
+        /* height: 97px; */
+        margin-bottom: auto;
+    }
+    
+    .block-text{
+        width: 90%;
+        padding-right: 0;
+        height: 107px;
+        margin-top: auto;
+    }
+    
+    .block-btn{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .planning{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .planning__name{
+        font-size: 1.5rem;
+        line-height: 1.33;
+    }
+    
+    .planning__info{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .planning__info_block{
+        width: 92%;
+        height:auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    .block-img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .block-text{
+        width: 92%;
+        min-height: 30px;
+        height: auto;
+        max-height: auto;
+    }
+
+}

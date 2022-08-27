@@ -1,0 +1,342 @@
+.expect{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expect__name{
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-bottom: 32px; ;
+}
+
+.expect__info{
+    display: flex;
+    flex-direction: column;
+    width: 1135px;
+    /* width: 1175px; */
+
+}
+
+.expect__info_block1{
+    width: 1135px;
+    /* width: 1175px; */
+    height: 391px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expect__info_img1{
+    width: 547.5px;
+    height: 351px;
+
+}
+
+.expect__info_block1-right{
+    width: 547.5px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.expect__info_block1-right_name{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #000;
+    font-family: "Open Sans";
+}
+
+.expect__info_block1-right_text{
+    color: inherit;
+    font-size: 1rem;
+    font-family: "Open Sans";
+    line-height: 1.4;
+}
+
+.expect__info_block1-right_btn{
+    width: 78.625px;
+    height: 24px;
+    font-family: "Open Sans";
+    color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #745ac3;
+    background-color: #6244bb;
+    border-radius: 4px;
+    padding-top: 0.75rem;
+    padding-right: 2.5rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2.5rem;
+}
+
+.expect__info_block1-right_btn:hover{
+    background-color: #4a2ca5;
+}
+
+.expect__info_block2{
+    width: 1135px;
+    /* width: 1175px; */
+    /* height: 391px; */
+    /* margin-bottom: 48px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.expect__info_block2-left{
+    width: 547.500px;
+    height: 240.800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.expect__info_block2-left_name{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #000;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+
+}
+
+.expect__info_block1-left_link{
+    width: 513.5px;
+    height: 46.400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    border: 0.0625rem solid #CCC;
+    border-radius: 0.25rem;
+    align-items: center;
+}
+
+.expect__info_block1-left_link:hover{
+    border: 3px solid #6244bb;
+}
+
+.link-name{
+    font-family: "Open Sans";
+    line-height: 1.5;
+    font-weight: 600;
+
+}
+
+.link-text{
+    font-family: "Open Sans";
+    font-weight: inherit;
+    line-height: 1.4;
+
+}
+
+.expect__info_img2{
+    width: 547.5px;
+    height: 351.263px;
+
+}
+
+@media(max-width:1180px){
+    .expect__info{
+        width: 100%;
+    }
+    
+    .expect__info_block1{
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+    
+    .expect__info_img1{
+        width: 48%;
+        height: 100%;
+    
+    }
+    
+    .expect__info_block1-right{
+        width: 48%;
+        height: 175px;
+    }
+    
+    .expect__info_block2{
+        width: 100%;
+        justify-content: space-around;
+    
+    }
+    
+    .expect__info_block2-left{
+        width: 48%;
+        height: 240.800px;
+    }
+    
+    .expect__info_block1-left_link{
+        width: 92%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .expect__info_img2{
+        width: 48%;
+        height: 100%;
+    }
+}
+
+@media(max-width:768px){
+    .expect__info{
+        width:100%;
+        align-items: center;
+    }
+
+    .expect__name{
+        font-size: 1.5rem;
+        line-height: 1.33;
+        max-width: 95%;
+        text-align: center;
+    }
+
+    .expect__info_block1{
+        width:95%;
+        /* width: 1175px; */
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .expect__info_img1{
+        width: 558px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    
+    .expect__info_block1-right{
+        width: 648px;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .expect__info_block1-right_name{
+        font-size: 1.25rem;
+        line-height: 1.7;
+    }
+    
+    .expect__info_block1-right_text{
+        color: inherit;
+        font-size: 1rem;
+        font-family: "Open Sans";
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    
+    .expect__info_block1-right_btn{
+        width: 78.625px;
+        height: 24px;
+        font-family: "Open Sans";
+        color: #fff;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #745ac3;
+        background-color: #6244bb;
+        border-radius: 4px;
+        padding-top: 0.75rem;
+        padding-right: 2.5rem;
+        padding-bottom: 0.75rem;
+        padding-left: 2.5rem;
+    }
+    
+    .expect__info_block1-right_btn:hover{
+        background-color: #4a2ca5;
+    }
+    
+    .expect__info_block2{
+        margin-bottom: 20px;
+    
+    }
+    
+    .expect__info_block2-left{
+        width: 750px;
+        max-width: 90%;
+        height: 240.800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .expect__info_block2-left_name{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 600;
+        color: #000;
+        font-family: "Open Sans";
+        margin-bottom: 15px;
+    
+    }
+    
+    .expect__info_block1-left_link{
+        width: 613.5px;
+        max-width: 90%;
+        height: 46.400px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 16px;
+        border: 0.0625rem solid #CCC;
+        border-radius: 0.25rem;
+        align-items: center;
+    }
+    
+    .expect__info_block1-left_link:hover{
+        border: 3px solid #6244bb;
+        width: 603px;
+        height: 40px;
+    }
+    
+    .link-name{
+        font-family: "Open Sans";
+        line-height: 1.5;
+        font-weight: 600;
+    
+    }
+    
+    .link-text{
+        font-family: "Open Sans";
+        font-weight: inherit;
+        line-height: 1.4;
+    }
+    
+    .expect__info_img2{
+        display: none;
+    }
+}
+
+@media(max-width:265px){
+    .expect__info_block1-left_link{
+        max-width: 85%;
+        height: auto;
+    }
+
+    .expect__info_block2-left{
+        height: auto;
+    }
+}
+
+@media(max-width:944px){
+    .expect__info_block2{
+        margin-bottom: 30px ;
+    }
+}
